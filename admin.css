@@ -1,0 +1,64 @@
+#cp_box_id .handle-order-higher, #cp_box_id .handle-order-lower {
+  display: none;
+}
+
+.edit-post-meta-boxes-area #poststuff #cp_box_id h2.hndle {
+  padding: 0px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.edit-post-meta-boxes-area #cp_box_id>.inside {
+  padding: 0px 24px 12px 12px;
+}
+
+.cp_concierge__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cp_concierge_field__container {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: left;
+}
+
+.cp_concierge_field__label {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  max-width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cp_concierge_field__container input {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: rgb(30, 30, 30);
+  display: block;
+  font-family: inherit;
+  margin: 0px;
+  outline: none;
+  width: 100%;
+  font-size: 12px;
+  height: 30px;
+  line-height: 1;
+  min-height: 30px;
+  margin-bottom: 12px;
+  padding-left: calc(8px);
+  padding-right: calc(8px);
+  border-color: rgb(148, 148, 148);
+  border-style: solid;
+  border-width: 1px;
+}
